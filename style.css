@@ -1,30 +1,40 @@
 @import url(https://fonts.google.com/specimen/Outfit);
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap");
 
 body {
-    background-color: hsl(212, 45%, 89%)
+  background-color: hsl(212, 45%, 89%);
+  justify-content: center;
 }
 
-.card-container{
-    padding : 2px;
-    font-size: 15px;
-    background-color: hsl(0, 0%, 100%);
-    text-align: center;
-    border-radius: 15px;
-    padding: 20px;
+.card-container {
+  padding: 2px;
+  font-size: 15px;
+  background-color: hsl(0, 0%, 100%);
+  text-align: center;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: auto;
+  width: min-content;
+  margin: auto; 
+  position: relative;
+  top: 50%;
+  transform: translateY(25%);
 }
 
-.header{
-    font-family: 'Outfit', sans-serif;
-    font-size: 20px;
-    color: hsl(218, 44%, 22%);
+.header {
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  color: hsl(218, 44%, 22%);
+}
+
+.qr-img {
+  border-radius: 15px;
+  width: 250px;
 }
 
 .caption {
-    font-family: 'Press Start 2P', system-ui;
-    font-weight: 400;
-    font-size: 15px;
-    color: hsl(220, 15%, 55%);
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
 }
