@@ -18,7 +18,7 @@ body {
   margin: auto; 
   position: relative;
   top: 50%;
-  transform: translateY(25%);
+  transform: translateY(30%);
 }
 
 .header {
@@ -29,7 +29,7 @@ body {
 
 .qr-img {
   border-radius: 15px;
-  width: 250px;
+  width: 270px;
 }
 
 .caption {
